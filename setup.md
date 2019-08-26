@@ -69,7 +69,7 @@ Details for each component can be seen in the component SDD (Software Design Doc
 The demo is going to be run on the Linux Computer Host through the fprime repository.
 1. Change directory to the `Ref` (AKA “Reference Application) directory inside `fprime`.
 2. Type `make gen_make` from the prompt. Output similar to the following should appear:\
-    ![make gen_make Output](/home/uasal/makegen_make.png)
+    ![make gen_make Output](https://github.com/uasal/fprime_demo/blob/master/images/makegen_make.png)\
    The source directories contain files names **mod.mk** which are scanned by the **gen_make**
    script to generate a make file to perform the build.
 3. Type `make` from the prompt. The code should build to completion.
@@ -78,7 +78,7 @@ The demo is going to be run on the Linux Computer Host through the fprime reposi
 ### Running the Demo
 The demo requires a system running an X server to display the GUI. To run the demo, execute the
 following script: `sudo ./Ref/script/run_ref.sh`. This will bring up the command and telemetry GUI seen below.\
-![FGS GUI](/home/uasal/makegen_make.png)\
+![FGS GUI](https://github.com/uasal/fprime_demo/blob/master/images/FGS_Telemetry.png)\
 Another window will show the standard output of the reference application.\
 The user can enter commands and view telemetry by selecting the various tabs. Once the GUI is exited,
 the script will shut down the window containing the application.
